@@ -1,0 +1,1029 @@
+{
+  "nodes": {
+    "flakeNimbleLib": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1646967037,
+        "narHash": "sha256-BoEqkGzLVnFICrF15wczZJrfF1vMVngRzF5cEgFzdzU=",
+        "owner": "riinr",
+        "repo": "nim-flakes-lib",
+        "rev": "028e7596fdb918b72a295d220d48417ab2f5dfd1",
+        "type": "github"
+      },
+      "original": {
+        "owner": "riinr",
+        "ref": "master",
+        "repo": "nim-flakes-lib",
+        "type": "github"
+      }
+    },
+    "multicast": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "xiaomi-master",
+          "flakeNimbleLib"
+        ],
+        "multicast-master": "multicast-master",
+        "nixpkgs": [
+          "xiaomi-master",
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1647398053,
+        "narHash": "sha256-vhSdg8F4sUu3C0si1CcCzVMF7XUMP+WA3mUUeqtm7GI=",
+        "owner": "nim-nix-pkgs",
+        "repo": "multicast",
+        "rev": "6b71fa922e1a33215efd7c4b23bbde43ebd6c9fa",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "multicast",
+        "type": "github"
+      }
+    },
+    "multicast-master": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "xiaomi-master",
+          "multicast",
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "xiaomi-master",
+          "multicast",
+          "nixpkgs"
+        ],
+        "src-multicast-master": "src-multicast-master"
+      },
+      "locked": {
+        "dir": "master",
+        "lastModified": 1647311167,
+        "narHash": "sha256-iqV5uIL46CHbHJlBLXE1Eo2AcU1w89Awql1x3+vWRB0=",
+        "owner": "nim-nix-pkgs",
+        "repo": "multicast",
+        "rev": "874f7177fa24f6323502c9b0d316fe9032782fd2",
+        "type": "github"
+      },
+      "original": {
+        "dir": "master",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "multicast",
+        "type": "github"
+      }
+    },
+    "multicast-master_2": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "xiaomi-v0_1_1",
+          "multicast",
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "xiaomi-v0_1_1",
+          "multicast",
+          "nixpkgs"
+        ],
+        "src-multicast-master": "src-multicast-master_2"
+      },
+      "locked": {
+        "dir": "master",
+        "lastModified": 1647311167,
+        "narHash": "sha256-iqV5uIL46CHbHJlBLXE1Eo2AcU1w89Awql1x3+vWRB0=",
+        "owner": "nim-nix-pkgs",
+        "repo": "multicast",
+        "rev": "874f7177fa24f6323502c9b0d316fe9032782fd2",
+        "type": "github"
+      },
+      "original": {
+        "dir": "master",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "multicast",
+        "type": "github"
+      }
+    },
+    "multicast-master_3": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "xiaomi-v0_1_2",
+          "multicast",
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "xiaomi-v0_1_2",
+          "multicast",
+          "nixpkgs"
+        ],
+        "src-multicast-master": "src-multicast-master_3"
+      },
+      "locked": {
+        "dir": "master",
+        "lastModified": 1647311167,
+        "narHash": "sha256-iqV5uIL46CHbHJlBLXE1Eo2AcU1w89Awql1x3+vWRB0=",
+        "owner": "nim-nix-pkgs",
+        "repo": "multicast",
+        "rev": "874f7177fa24f6323502c9b0d316fe9032782fd2",
+        "type": "github"
+      },
+      "original": {
+        "dir": "master",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "multicast",
+        "type": "github"
+      }
+    },
+    "multicast-master_4": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "xiaomi-v0_1_3",
+          "multicast",
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "xiaomi-v0_1_3",
+          "multicast",
+          "nixpkgs"
+        ],
+        "src-multicast-master": "src-multicast-master_4"
+      },
+      "locked": {
+        "dir": "master",
+        "lastModified": 1647311167,
+        "narHash": "sha256-iqV5uIL46CHbHJlBLXE1Eo2AcU1w89Awql1x3+vWRB0=",
+        "owner": "nim-nix-pkgs",
+        "repo": "multicast",
+        "rev": "874f7177fa24f6323502c9b0d316fe9032782fd2",
+        "type": "github"
+      },
+      "original": {
+        "dir": "master",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "multicast",
+        "type": "github"
+      }
+    },
+    "multicast-master_5": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "xiaomi-v0_1_4",
+          "multicast",
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "xiaomi-v0_1_4",
+          "multicast",
+          "nixpkgs"
+        ],
+        "src-multicast-master": "src-multicast-master_5"
+      },
+      "locked": {
+        "dir": "master",
+        "lastModified": 1647311167,
+        "narHash": "sha256-iqV5uIL46CHbHJlBLXE1Eo2AcU1w89Awql1x3+vWRB0=",
+        "owner": "nim-nix-pkgs",
+        "repo": "multicast",
+        "rev": "874f7177fa24f6323502c9b0d316fe9032782fd2",
+        "type": "github"
+      },
+      "original": {
+        "dir": "master",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "multicast",
+        "type": "github"
+      }
+    },
+    "multicast_2": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "xiaomi-v0_1_1",
+          "flakeNimbleLib"
+        ],
+        "multicast-master": "multicast-master_2",
+        "nixpkgs": [
+          "xiaomi-v0_1_1",
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1647398053,
+        "narHash": "sha256-vhSdg8F4sUu3C0si1CcCzVMF7XUMP+WA3mUUeqtm7GI=",
+        "owner": "nim-nix-pkgs",
+        "repo": "multicast",
+        "rev": "6b71fa922e1a33215efd7c4b23bbde43ebd6c9fa",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "multicast",
+        "type": "github"
+      }
+    },
+    "multicast_3": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "xiaomi-v0_1_2",
+          "flakeNimbleLib"
+        ],
+        "multicast-master": "multicast-master_3",
+        "nixpkgs": [
+          "xiaomi-v0_1_2",
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1647398053,
+        "narHash": "sha256-vhSdg8F4sUu3C0si1CcCzVMF7XUMP+WA3mUUeqtm7GI=",
+        "owner": "nim-nix-pkgs",
+        "repo": "multicast",
+        "rev": "6b71fa922e1a33215efd7c4b23bbde43ebd6c9fa",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "multicast",
+        "type": "github"
+      }
+    },
+    "multicast_4": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "xiaomi-v0_1_3",
+          "flakeNimbleLib"
+        ],
+        "multicast-master": "multicast-master_4",
+        "nixpkgs": [
+          "xiaomi-v0_1_3",
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1647398053,
+        "narHash": "sha256-vhSdg8F4sUu3C0si1CcCzVMF7XUMP+WA3mUUeqtm7GI=",
+        "owner": "nim-nix-pkgs",
+        "repo": "multicast",
+        "rev": "6b71fa922e1a33215efd7c4b23bbde43ebd6c9fa",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "multicast",
+        "type": "github"
+      }
+    },
+    "multicast_5": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "xiaomi-v0_1_4",
+          "flakeNimbleLib"
+        ],
+        "multicast-master": "multicast-master_5",
+        "nixpkgs": [
+          "xiaomi-v0_1_4",
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1647398053,
+        "narHash": "sha256-vhSdg8F4sUu3C0si1CcCzVMF7XUMP+WA3mUUeqtm7GI=",
+        "owner": "nim-nix-pkgs",
+        "repo": "multicast",
+        "rev": "6b71fa922e1a33215efd7c4b23bbde43ebd6c9fa",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "multicast",
+        "type": "github"
+      }
+    },
+    "nimcrypto": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "xiaomi-master",
+          "flakeNimbleLib"
+        ],
+        "nimcrypto-master": "nimcrypto-master",
+        "nixpkgs": [
+          "xiaomi-master",
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1647398453,
+        "narHash": "sha256-13srVv36KwL+EiORfCvngRQbN38bzV40UDqT9tL+vEY=",
+        "owner": "nim-nix-pkgs",
+        "repo": "nimcrypto",
+        "rev": "a0dac7ea19161dfc7f4a437dbb32b453e725ca2f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "nimcrypto",
+        "type": "github"
+      }
+    },
+    "nimcrypto-master": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "xiaomi-master",
+          "nimcrypto",
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "xiaomi-master",
+          "nimcrypto",
+          "nixpkgs"
+        ],
+        "src-nimcrypto-master": "src-nimcrypto-master"
+      },
+      "locked": {
+        "dir": "master",
+        "lastModified": 1647311198,
+        "narHash": "sha256-8TEWgYWVMGZR1lgReSIXapxR7+LloNSXdgqrZVsKV1M=",
+        "owner": "nim-nix-pkgs",
+        "repo": "nimcrypto",
+        "rev": "4820b7d724f32f9ed9c0de31e7496d8a951fc785",
+        "type": "github"
+      },
+      "original": {
+        "dir": "master",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "nimcrypto",
+        "type": "github"
+      }
+    },
+    "nimcrypto-master_2": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "xiaomi-v0_1_1",
+          "nimcrypto",
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "xiaomi-v0_1_1",
+          "nimcrypto",
+          "nixpkgs"
+        ],
+        "src-nimcrypto-master": "src-nimcrypto-master_2"
+      },
+      "locked": {
+        "dir": "master",
+        "lastModified": 1647311198,
+        "narHash": "sha256-8TEWgYWVMGZR1lgReSIXapxR7+LloNSXdgqrZVsKV1M=",
+        "owner": "nim-nix-pkgs",
+        "repo": "nimcrypto",
+        "rev": "4820b7d724f32f9ed9c0de31e7496d8a951fc785",
+        "type": "github"
+      },
+      "original": {
+        "dir": "master",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "nimcrypto",
+        "type": "github"
+      }
+    },
+    "nimcrypto-master_3": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "xiaomi-v0_1_2",
+          "nimcrypto",
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "xiaomi-v0_1_2",
+          "nimcrypto",
+          "nixpkgs"
+        ],
+        "src-nimcrypto-master": "src-nimcrypto-master_3"
+      },
+      "locked": {
+        "dir": "master",
+        "lastModified": 1647311198,
+        "narHash": "sha256-8TEWgYWVMGZR1lgReSIXapxR7+LloNSXdgqrZVsKV1M=",
+        "owner": "nim-nix-pkgs",
+        "repo": "nimcrypto",
+        "rev": "4820b7d724f32f9ed9c0de31e7496d8a951fc785",
+        "type": "github"
+      },
+      "original": {
+        "dir": "master",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "nimcrypto",
+        "type": "github"
+      }
+    },
+    "nimcrypto-master_4": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "xiaomi-v0_1_3",
+          "nimcrypto",
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "xiaomi-v0_1_3",
+          "nimcrypto",
+          "nixpkgs"
+        ],
+        "src-nimcrypto-master": "src-nimcrypto-master_4"
+      },
+      "locked": {
+        "dir": "master",
+        "lastModified": 1647311198,
+        "narHash": "sha256-8TEWgYWVMGZR1lgReSIXapxR7+LloNSXdgqrZVsKV1M=",
+        "owner": "nim-nix-pkgs",
+        "repo": "nimcrypto",
+        "rev": "4820b7d724f32f9ed9c0de31e7496d8a951fc785",
+        "type": "github"
+      },
+      "original": {
+        "dir": "master",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "nimcrypto",
+        "type": "github"
+      }
+    },
+    "nimcrypto-master_5": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "xiaomi-v0_1_4",
+          "nimcrypto",
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "xiaomi-v0_1_4",
+          "nimcrypto",
+          "nixpkgs"
+        ],
+        "src-nimcrypto-master": "src-nimcrypto-master_5"
+      },
+      "locked": {
+        "dir": "master",
+        "lastModified": 1647311198,
+        "narHash": "sha256-8TEWgYWVMGZR1lgReSIXapxR7+LloNSXdgqrZVsKV1M=",
+        "owner": "nim-nix-pkgs",
+        "repo": "nimcrypto",
+        "rev": "4820b7d724f32f9ed9c0de31e7496d8a951fc785",
+        "type": "github"
+      },
+      "original": {
+        "dir": "master",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "nimcrypto",
+        "type": "github"
+      }
+    },
+    "nimcrypto_2": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "xiaomi-v0_1_1",
+          "flakeNimbleLib"
+        ],
+        "nimcrypto-master": "nimcrypto-master_2",
+        "nixpkgs": [
+          "xiaomi-v0_1_1",
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1647398453,
+        "narHash": "sha256-13srVv36KwL+EiORfCvngRQbN38bzV40UDqT9tL+vEY=",
+        "owner": "nim-nix-pkgs",
+        "repo": "nimcrypto",
+        "rev": "a0dac7ea19161dfc7f4a437dbb32b453e725ca2f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "nimcrypto",
+        "type": "github"
+      }
+    },
+    "nimcrypto_3": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "xiaomi-v0_1_2",
+          "flakeNimbleLib"
+        ],
+        "nimcrypto-master": "nimcrypto-master_3",
+        "nixpkgs": [
+          "xiaomi-v0_1_2",
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1647398453,
+        "narHash": "sha256-13srVv36KwL+EiORfCvngRQbN38bzV40UDqT9tL+vEY=",
+        "owner": "nim-nix-pkgs",
+        "repo": "nimcrypto",
+        "rev": "a0dac7ea19161dfc7f4a437dbb32b453e725ca2f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "nimcrypto",
+        "type": "github"
+      }
+    },
+    "nimcrypto_4": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "xiaomi-v0_1_3",
+          "flakeNimbleLib"
+        ],
+        "nimcrypto-master": "nimcrypto-master_4",
+        "nixpkgs": [
+          "xiaomi-v0_1_3",
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1647398453,
+        "narHash": "sha256-13srVv36KwL+EiORfCvngRQbN38bzV40UDqT9tL+vEY=",
+        "owner": "nim-nix-pkgs",
+        "repo": "nimcrypto",
+        "rev": "a0dac7ea19161dfc7f4a437dbb32b453e725ca2f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "nimcrypto",
+        "type": "github"
+      }
+    },
+    "nimcrypto_5": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "xiaomi-v0_1_4",
+          "flakeNimbleLib"
+        ],
+        "nimcrypto-master": "nimcrypto-master_5",
+        "nixpkgs": [
+          "xiaomi-v0_1_4",
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1647398453,
+        "narHash": "sha256-13srVv36KwL+EiORfCvngRQbN38bzV40UDqT9tL+vEY=",
+        "owner": "nim-nix-pkgs",
+        "repo": "nimcrypto",
+        "rev": "a0dac7ea19161dfc7f4a437dbb32b453e725ca2f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "nimcrypto",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "narHash": "sha256-+8mazL4KLh6VltXYJc5+QFA5Q1i+Uh/TadRl9/+qcx8=",
+        "path": "/nix/store/gddrvlqs5qf1bp3kc80gp3qg5vm8kj76-source",
+        "type": "path"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "root": {
+      "inputs": {
+        "flakeNimbleLib": "flakeNimbleLib",
+        "nixpkgs": "nixpkgs",
+        "xiaomi-master": "xiaomi-master",
+        "xiaomi-v0_1_1": "xiaomi-v0_1_1",
+        "xiaomi-v0_1_2": "xiaomi-v0_1_2",
+        "xiaomi-v0_1_3": "xiaomi-v0_1_3",
+        "xiaomi-v0_1_4": "xiaomi-v0_1_4"
+      }
+    },
+    "src-multicast-master": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1598085252,
+        "narHash": "sha256-Vm1G2JF6d8zm8tZzStb2KIeHPdmZ5qmW0986FKO5BXU=",
+        "owner": "enthus1ast",
+        "repo": "nimMulticast",
+        "rev": "2d0cbd7c606c3d1dd9864cbe161cec50623b18f9",
+        "type": "github"
+      },
+      "original": {
+        "owner": "enthus1ast",
+        "ref": "refs/heads/master",
+        "repo": "nimMulticast",
+        "type": "github"
+      }
+    },
+    "src-multicast-master_2": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1598085252,
+        "narHash": "sha256-Vm1G2JF6d8zm8tZzStb2KIeHPdmZ5qmW0986FKO5BXU=",
+        "owner": "enthus1ast",
+        "repo": "nimMulticast",
+        "rev": "2d0cbd7c606c3d1dd9864cbe161cec50623b18f9",
+        "type": "github"
+      },
+      "original": {
+        "owner": "enthus1ast",
+        "ref": "refs/heads/master",
+        "repo": "nimMulticast",
+        "type": "github"
+      }
+    },
+    "src-multicast-master_3": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1598085252,
+        "narHash": "sha256-Vm1G2JF6d8zm8tZzStb2KIeHPdmZ5qmW0986FKO5BXU=",
+        "owner": "enthus1ast",
+        "repo": "nimMulticast",
+        "rev": "2d0cbd7c606c3d1dd9864cbe161cec50623b18f9",
+        "type": "github"
+      },
+      "original": {
+        "owner": "enthus1ast",
+        "ref": "refs/heads/master",
+        "repo": "nimMulticast",
+        "type": "github"
+      }
+    },
+    "src-multicast-master_4": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1598085252,
+        "narHash": "sha256-Vm1G2JF6d8zm8tZzStb2KIeHPdmZ5qmW0986FKO5BXU=",
+        "owner": "enthus1ast",
+        "repo": "nimMulticast",
+        "rev": "2d0cbd7c606c3d1dd9864cbe161cec50623b18f9",
+        "type": "github"
+      },
+      "original": {
+        "owner": "enthus1ast",
+        "ref": "refs/heads/master",
+        "repo": "nimMulticast",
+        "type": "github"
+      }
+    },
+    "src-multicast-master_5": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1598085252,
+        "narHash": "sha256-Vm1G2JF6d8zm8tZzStb2KIeHPdmZ5qmW0986FKO5BXU=",
+        "owner": "enthus1ast",
+        "repo": "nimMulticast",
+        "rev": "2d0cbd7c606c3d1dd9864cbe161cec50623b18f9",
+        "type": "github"
+      },
+      "original": {
+        "owner": "enthus1ast",
+        "ref": "refs/heads/master",
+        "repo": "nimMulticast",
+        "type": "github"
+      }
+    },
+    "src-nimcrypto-master": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1624058888,
+        "narHash": "sha256-X/NUVtNS05OBrJTqZIPKd0P6Am4JJDtM9htVFpWWgCo=",
+        "owner": "cheatfate",
+        "repo": "nimcrypto",
+        "rev": "a5742a9a214ac33f91615f3862c7b099aec43b00",
+        "type": "github"
+      },
+      "original": {
+        "owner": "cheatfate",
+        "ref": "refs/heads/master",
+        "repo": "nimcrypto",
+        "type": "github"
+      }
+    },
+    "src-nimcrypto-master_2": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1624058888,
+        "narHash": "sha256-X/NUVtNS05OBrJTqZIPKd0P6Am4JJDtM9htVFpWWgCo=",
+        "owner": "cheatfate",
+        "repo": "nimcrypto",
+        "rev": "a5742a9a214ac33f91615f3862c7b099aec43b00",
+        "type": "github"
+      },
+      "original": {
+        "owner": "cheatfate",
+        "ref": "refs/heads/master",
+        "repo": "nimcrypto",
+        "type": "github"
+      }
+    },
+    "src-nimcrypto-master_3": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1624058888,
+        "narHash": "sha256-X/NUVtNS05OBrJTqZIPKd0P6Am4JJDtM9htVFpWWgCo=",
+        "owner": "cheatfate",
+        "repo": "nimcrypto",
+        "rev": "a5742a9a214ac33f91615f3862c7b099aec43b00",
+        "type": "github"
+      },
+      "original": {
+        "owner": "cheatfate",
+        "ref": "refs/heads/master",
+        "repo": "nimcrypto",
+        "type": "github"
+      }
+    },
+    "src-nimcrypto-master_4": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1624058888,
+        "narHash": "sha256-X/NUVtNS05OBrJTqZIPKd0P6Am4JJDtM9htVFpWWgCo=",
+        "owner": "cheatfate",
+        "repo": "nimcrypto",
+        "rev": "a5742a9a214ac33f91615f3862c7b099aec43b00",
+        "type": "github"
+      },
+      "original": {
+        "owner": "cheatfate",
+        "ref": "refs/heads/master",
+        "repo": "nimcrypto",
+        "type": "github"
+      }
+    },
+    "src-nimcrypto-master_5": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1624058888,
+        "narHash": "sha256-X/NUVtNS05OBrJTqZIPKd0P6Am4JJDtM9htVFpWWgCo=",
+        "owner": "cheatfate",
+        "repo": "nimcrypto",
+        "rev": "a5742a9a214ac33f91615f3862c7b099aec43b00",
+        "type": "github"
+      },
+      "original": {
+        "owner": "cheatfate",
+        "ref": "refs/heads/master",
+        "repo": "nimcrypto",
+        "type": "github"
+      }
+    },
+    "src-xiaomi-master": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1550253840,
+        "narHash": "sha256-INR9QbXyVjhkc1r7hoCwGQtCI2aan1KP4m+Yr916rCA=",
+        "owner": "ThomasTJdev",
+        "repo": "nim_xiaomi",
+        "rev": "1e3b701ccbc830d8a27573685fad888450e675bd",
+        "type": "github"
+      },
+      "original": {
+        "owner": "ThomasTJdev",
+        "ref": "refs/heads/master",
+        "repo": "nim_xiaomi",
+        "type": "github"
+      }
+    },
+    "src-xiaomi-v0_1_1": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1541326341,
+        "narHash": "sha256-ieNVuBjCGiENB4qaO01eTr7lgMtSkAwiRgeLea/Nunk=",
+        "owner": "ThomasTJdev",
+        "repo": "nim_xiaomi",
+        "rev": "d6d389f8b54f070f67b36dd0dd45c85390904d54",
+        "type": "github"
+      },
+      "original": {
+        "owner": "ThomasTJdev",
+        "ref": "refs/tags/v0.1.1",
+        "repo": "nim_xiaomi",
+        "type": "github"
+      }
+    },
+    "src-xiaomi-v0_1_2": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1543046255,
+        "narHash": "sha256-A0B0N+vcbr+6LwhwsEUeyk3oGdLBb5ECpszTIbhGWSE=",
+        "owner": "ThomasTJdev",
+        "repo": "nim_xiaomi",
+        "rev": "9a970f3fecac9da184b2dacaf0e64a51ec418e25",
+        "type": "github"
+      },
+      "original": {
+        "owner": "ThomasTJdev",
+        "ref": "refs/tags/v0.1.2",
+        "repo": "nim_xiaomi",
+        "type": "github"
+      }
+    },
+    "src-xiaomi-v0_1_3": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1550246884,
+        "narHash": "sha256-8OEEY1mJ5cLudZYtbmqQCkySkfmFXRWjHdpFIUZVQSI=",
+        "owner": "ThomasTJdev",
+        "repo": "nim_xiaomi",
+        "rev": "aef0e9f63041dacc2784012401d41b2939f78060",
+        "type": "github"
+      },
+      "original": {
+        "owner": "ThomasTJdev",
+        "ref": "refs/tags/v0.1.3",
+        "repo": "nim_xiaomi",
+        "type": "github"
+      }
+    },
+    "src-xiaomi-v0_1_4": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1550253840,
+        "narHash": "sha256-INR9QbXyVjhkc1r7hoCwGQtCI2aan1KP4m+Yr916rCA=",
+        "owner": "ThomasTJdev",
+        "repo": "nim_xiaomi",
+        "rev": "1e3b701ccbc830d8a27573685fad888450e675bd",
+        "type": "github"
+      },
+      "original": {
+        "owner": "ThomasTJdev",
+        "ref": "refs/tags/v0.1.4",
+        "repo": "nim_xiaomi",
+        "type": "github"
+      }
+    },
+    "xiaomi-master": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "flakeNimbleLib"
+        ],
+        "multicast": "multicast",
+        "nimcrypto": "nimcrypto",
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "src-xiaomi-master": "src-xiaomi-master"
+      },
+      "locked": {
+        "dir": "master",
+        "lastModified": 1647312093,
+        "narHash": "sha256-kbIJ+2omWbbIK1aY7ng2lvhx03KDbA0KoLhpNrge3V0=",
+        "owner": "nim-nix-pkgs",
+        "repo": "xiaomi",
+        "rev": "cacf8ef2757389a73085abb3250ed42a4262e1df",
+        "type": "github"
+      },
+      "original": {
+        "dir": "master",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "xiaomi",
+        "type": "github"
+      }
+    },
+    "xiaomi-v0_1_1": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "flakeNimbleLib"
+        ],
+        "multicast": "multicast_2",
+        "nimcrypto": "nimcrypto_2",
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "src-xiaomi-v0_1_1": "src-xiaomi-v0_1_1"
+      },
+      "locked": {
+        "dir": "v0_1_1",
+        "lastModified": 1647312093,
+        "narHash": "sha256-kbIJ+2omWbbIK1aY7ng2lvhx03KDbA0KoLhpNrge3V0=",
+        "owner": "nim-nix-pkgs",
+        "repo": "xiaomi",
+        "rev": "cacf8ef2757389a73085abb3250ed42a4262e1df",
+        "type": "github"
+      },
+      "original": {
+        "dir": "v0_1_1",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "xiaomi",
+        "type": "github"
+      }
+    },
+    "xiaomi-v0_1_2": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "flakeNimbleLib"
+        ],
+        "multicast": "multicast_3",
+        "nimcrypto": "nimcrypto_3",
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "src-xiaomi-v0_1_2": "src-xiaomi-v0_1_2"
+      },
+      "locked": {
+        "dir": "v0_1_2",
+        "lastModified": 1647312093,
+        "narHash": "sha256-kbIJ+2omWbbIK1aY7ng2lvhx03KDbA0KoLhpNrge3V0=",
+        "owner": "nim-nix-pkgs",
+        "repo": "xiaomi",
+        "rev": "cacf8ef2757389a73085abb3250ed42a4262e1df",
+        "type": "github"
+      },
+      "original": {
+        "dir": "v0_1_2",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "xiaomi",
+        "type": "github"
+      }
+    },
+    "xiaomi-v0_1_3": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "flakeNimbleLib"
+        ],
+        "multicast": "multicast_4",
+        "nimcrypto": "nimcrypto_4",
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "src-xiaomi-v0_1_3": "src-xiaomi-v0_1_3"
+      },
+      "locked": {
+        "dir": "v0_1_3",
+        "lastModified": 1647312093,
+        "narHash": "sha256-kbIJ+2omWbbIK1aY7ng2lvhx03KDbA0KoLhpNrge3V0=",
+        "owner": "nim-nix-pkgs",
+        "repo": "xiaomi",
+        "rev": "cacf8ef2757389a73085abb3250ed42a4262e1df",
+        "type": "github"
+      },
+      "original": {
+        "dir": "v0_1_3",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "xiaomi",
+        "type": "github"
+      }
+    },
+    "xiaomi-v0_1_4": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "flakeNimbleLib"
+        ],
+        "multicast": "multicast_5",
+        "nimcrypto": "nimcrypto_5",
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "src-xiaomi-v0_1_4": "src-xiaomi-v0_1_4"
+      },
+      "locked": {
+        "dir": "v0_1_4",
+        "lastModified": 1647312093,
+        "narHash": "sha256-kbIJ+2omWbbIK1aY7ng2lvhx03KDbA0KoLhpNrge3V0=",
+        "owner": "nim-nix-pkgs",
+        "repo": "xiaomi",
+        "rev": "cacf8ef2757389a73085abb3250ed42a4262e1df",
+        "type": "github"
+      },
+      "original": {
+        "dir": "v0_1_4",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "xiaomi",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
