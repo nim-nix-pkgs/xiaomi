@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-xiaomi-v0_1_4.flake = false;
+  inputs.src-xiaomi-v0_1_4.ref   = "refs/tags/v0.1.4";
   inputs.src-xiaomi-v0_1_4.owner = "ThomasTJdev";
-  inputs.src-xiaomi-v0_1_4.ref   = "v0_1_4";
   inputs.src-xiaomi-v0_1_4.repo  = "nim_xiaomi.git";
   inputs.src-xiaomi-v0_1_4.type  = "github";
   
