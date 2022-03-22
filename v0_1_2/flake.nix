@@ -10,7 +10,7 @@
   inputs.src-xiaomi-v0_1_2.flake = false;
   inputs.src-xiaomi-v0_1_2.ref   = "refs/tags/v0.1.2";
   inputs.src-xiaomi-v0_1_2.owner = "ThomasTJdev";
-  inputs.src-xiaomi-v0_1_2.repo  = "nim_xiaomi.git";
+  inputs.src-xiaomi-v0_1_2.repo  = "nim_xiaomi";
   inputs.src-xiaomi-v0_1_2.type  = "github";
   
   inputs."multicast".owner = "nim-nix-pkgs";

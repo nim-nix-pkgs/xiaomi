@@ -10,7 +10,7 @@
   inputs.src-xiaomi-master.flake = false;
   inputs.src-xiaomi-master.ref   = "refs/heads/master";
   inputs.src-xiaomi-master.owner = "ThomasTJdev";
-  inputs.src-xiaomi-master.repo  = "nim_xiaomi.git";
+  inputs.src-xiaomi-master.repo  = "nim_xiaomi";
   inputs.src-xiaomi-master.type  = "github";
   
   inputs."multicast".owner = "nim-nix-pkgs";
