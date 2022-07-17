@@ -35,11 +35,11 @@
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1657153086,
-        "narHash": "sha256-Y30uU3a6sls6wyEWnSYH3iDiS3dvcleJewQEyFocBnk=",
+        "lastModified": 1658018063,
+        "narHash": "sha256-jXMr0WlbnKVywGI5Lm1VOp68Wc3Fwl0+ku7TysrJmcA=",
         "owner": "nim-nix-pkgs",
         "repo": "multicast",
-        "rev": "1ea2c639694df5bc2262eb2bbcaed6ea41a9158b",
+        "rev": "3b0ad3474c2b24a2f1440ce901a81a73a4a55a2b",
         "type": "github"
       },
       "original": {
@@ -180,11 +180,11 @@
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1657153114,
-        "narHash": "sha256-gg+Jm7AMg3V0/25VE7zW7cWknmDvFosPo9VcPh2kLDc=",
+        "lastModified": 1658018092,
+        "narHash": "sha256-fqU0hyWWnvkldg+FZXb5XKwIDwWvWN/smJwDCHcRXus=",
         "owner": "nim-nix-pkgs",
         "repo": "nimcrypto",
-        "rev": "ca2a6e836e226b948fdd4ca9554e2829c11ee99d",
+        "rev": "88114ce9c84be760eeae634e68770584c8799d79",
         "type": "github"
       },
       "original": {
@@ -603,11 +603,11 @@
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1657154020,
-        "narHash": "sha256-tAw1UqNI9NDVCkXupB5nxfVU7DajlvgHUhrnGxIIMU4=",
+        "lastModified": 1658019077,
+        "narHash": "sha256-m66chYBiGG8nrbFv10+aK9WTMdtmCFl/EoyHEO60Hsk=",
         "owner": "nim-nix-pkgs",
         "repo": "xiaomi",
-        "rev": "a764149801a787fef029dfe703701efa817a6801",
+        "rev": "769a6965ef3205dd399a9641e70cf624561d8a83",
         "type": "github"
       },
       "original": {
@@ -632,11 +632,11 @@
       },
       "locked": {
         "dir": "v0_1_1",
-        "lastModified": 1657154020,
-        "narHash": "sha256-tAw1UqNI9NDVCkXupB5nxfVU7DajlvgHUhrnGxIIMU4=",
+        "lastModified": 1658019077,
+        "narHash": "sha256-m66chYBiGG8nrbFv10+aK9WTMdtmCFl/EoyHEO60Hsk=",
         "owner": "nim-nix-pkgs",
         "repo": "xiaomi",
-        "rev": "a764149801a787fef029dfe703701efa817a6801",
+        "rev": "769a6965ef3205dd399a9641e70cf624561d8a83",
         "type": "github"
       },
       "original": {
@@ -661,11 +661,11 @@
       },
       "locked": {
         "dir": "v0_1_2",
-        "lastModified": 1657154020,
-        "narHash": "sha256-tAw1UqNI9NDVCkXupB5nxfVU7DajlvgHUhrnGxIIMU4=",
+        "lastModified": 1658019077,
+        "narHash": "sha256-m66chYBiGG8nrbFv10+aK9WTMdtmCFl/EoyHEO60Hsk=",
         "owner": "nim-nix-pkgs",
         "repo": "xiaomi",
-        "rev": "a764149801a787fef029dfe703701efa817a6801",
+        "rev": "769a6965ef3205dd399a9641e70cf624561d8a83",
         "type": "github"
       },
       "original": {
@@ -690,11 +690,11 @@
       },
       "locked": {
         "dir": "v0_1_3",
-        "lastModified": 1657154020,
-        "narHash": "sha256-tAw1UqNI9NDVCkXupB5nxfVU7DajlvgHUhrnGxIIMU4=",
+        "lastModified": 1658019077,
+        "narHash": "sha256-m66chYBiGG8nrbFv10+aK9WTMdtmCFl/EoyHEO60Hsk=",
         "owner": "nim-nix-pkgs",
         "repo": "xiaomi",
-        "rev": "a764149801a787fef029dfe703701efa817a6801",
+        "rev": "769a6965ef3205dd399a9641e70cf624561d8a83",
         "type": "github"
       },
       "original": {
@@ -719,11 +719,11 @@
       },
       "locked": {
         "dir": "v0_1_4",
-        "lastModified": 1657154020,
-        "narHash": "sha256-tAw1UqNI9NDVCkXupB5nxfVU7DajlvgHUhrnGxIIMU4=",
+        "lastModified": 1658019077,
+        "narHash": "sha256-m66chYBiGG8nrbFv10+aK9WTMdtmCFl/EoyHEO60Hsk=",
         "owner": "nim-nix-pkgs",
         "repo": "xiaomi",
-        "rev": "a764149801a787fef029dfe703701efa817a6801",
+        "rev": "769a6965ef3205dd399a9641e70cf624561d8a83",
         "type": "github"
       },
       "original": {
